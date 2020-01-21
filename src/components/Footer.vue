@@ -1,6 +1,11 @@
 <template>
-    <div>
-        <h1>Footer</h1>
+    <div class="container-fluid text-center" id="footer">
+        <div class="row">
+            <div class="col-12">
+                <h2>Footer</h2>
+
+            </div>
+        </div>
     </div>
 </template>
 

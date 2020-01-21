@@ -1,1 +1,133 @@
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+html {
+  scroll-behavior: smooth;
+  a {
+    transition: all 0.3s ease;
+    color: #000;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #d7001a;
+    text-decoration: none;
+  }
+
+  #header {
+    background-color: #7f7f7f;
+    color: white;
+    height: 100vh;
+    transform: skewY(-4deg);
+    transform-origin: top left;
+    overflow-x: hidden;
+
+    .row {
+      transform: skewY(2deg);
+
+      .col-12 {
+        .row {
+          margin-top: 20vh;
+
+          .col-12 {
+            ul {
+              list-style: none;
+              display: inline-flex;
+
+              li:first-child {
+                margin: auto 400% auto -400%;
+                text-transform: uppercase;
+                font-weight: bold;
+              }
+
+              li:nth-child(2) {
+                img {
+                  width: 100px;
+                  filter: drop-shadow(3px 3px 5px #616161);
+                }
+              }
+
+              li:last-child {
+                margin: auto 0 auto 400%;
+                text-transform: uppercase;
+                font-weight: bold;
+              }
+            }
+          }
+
+          h1 {
+            font-weight: bold;
+            margin: 4rem 0 10px 0;
+            letter-spacing: 7px;
+            line-height: 110px;
+            font-size: 5rem;
+          }
+
+          h3 {
+            font-weight: lighter;
+          }
+        }
+      }
+    }
+  }
+
+  #about {
+    margin-top: 30vh;
+
+    .row {
+      .col-12 {
+        p {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+
+  #works {
+    margin-top: 50vh;
+    .container{
+      margin-top: 50px;
+      .row{
+        .col-6{
+          .card{
+            img{
+              height: 300px;
+              object-fit: cover;
+              object-position: top;
+            }
+            .card-body{
+              #tags{
+                font-size: 0.9rem;
+                font-weight: lighter;
+              }
+              .badge{
+                margin: 2px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #skills {
+    margin-top: 30vh;
+
+    .row {
+      .col-12 {
+        p {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+
+  #footer {
+    margin-top: 30vh;
+
+    .row {
+      .col-12 {
+        p {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}
