@@ -5,9 +5,11 @@
                 <h2>My Works</h2>
                 <div class="container">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-12 col-md-6 col-sm-12 col-lg-6">
                             <div class="card">
-                                <img class="card-img-top" src="@/assets/cars.png" alt="Card image cap">
+                                <a href="https://fight4car.com/">
+                                    <img class="card-img-top" src="@/assets/cars.png" alt="Card image cap">
+                                </a>
                                 <div class="card-body">
                                     <h5 class="card-title"><a href="https://fight4car.com/">Fight 4 Car</a></h5>
                                     <p class="card-text">Here you can buy used/new cars from Canada to Ukraine. Created
@@ -20,9 +22,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-md-6 col-sm-12 col-lg-6">
                             <div class="card">
-                                <img class="card-img-top" src="@/assets/taxi.png" alt="Card image cap">
+                                <a href="https://taxigarantsv.com.ua/">
+                                    <img class="card-img-top" src="@/assets/taxi.png" alt="Card image cap">
+                                </a>
                                 <div class="card-body">
                                     <h5 class="card-title"><a href="https://taxigarantsv.com.ua/">Taxi Service</a></h5>
                                     <p class="card-text">Website for Taxi service. Created with Laravel 6, Vue and Bootstrap.</p>
