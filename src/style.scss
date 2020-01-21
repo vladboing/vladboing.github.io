@@ -88,9 +88,13 @@ html {
         .col-6{
           .card{
             img{
+              transition: all 0.5s ease;
               height: 300px;
               object-fit: cover;
               object-position: top;
+            }
+            img:hover{
+              height: 400px;
             }
             .card-body{
               #tags{
